@@ -1,0 +1,124 @@
+html
+{
+    height:100%;
+}
+body {
+    background: linear-gradient(45deg, rgba(161,235,0,1) 0%, rgba(161,235,0,1) 30%, rgba(255,255,255,1) 30%, rgba(255,250,255,1) 79%, rgba(0,0,0,1) 79%, rgba(0,0,0,1) 100%);
+    background-repeat: no-repeat;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    text-align: right;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-weight: 799;
+    font-size: 1.6em;
+    margin: 10px 0 0 0;
+    padding-top: 5px;
+    color:#69be28;
+  }
+  a {
+    color: #69be28;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ffffff;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+  nav {
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 40px;
+  }
+  th {
+    font-weight: 500;
+  }
+  footer {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #pspecs,
+  #pics {
+    color: #69be28;
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: none;
+  }
+  #specs {
+    border: 1px solid #69be28;
+    margin: auto;
+    max-width: 500px;
+    font-size: 14.5px;
+    text-align: justify;
+    line-height: 1.2em;
+    display: none;
+  }
+  #pictures {
+    display: none;
+  }
+  #blast {
+    background-color: #69be28;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 0 5px 0;
+    display: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #kawa2008 {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .official {
+    word-spacing: 0;
+  }
+  .description {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    text-align: justify;
+    margin: 50px 20px 0 0;
+    color:#69be28;
+    font-size:1.3rem;
+  }
+  .hashtag{
+    font-size: 1rem; font-weight: bold;
+  }
+  .getbuttn {
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #69be28;
+    background-color: white;
+    transition: 200ms all ease-in-out;
+    border: 1px solid #69be28;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #96b696;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  .getbuttn:hover {
+    background: #69be28;
+    color: white;
+    cursor: pointer;
+  }
+  .footer-link{
+    color:#69be28;
+    font-weight:bolder;
+  }
+  .footer-link:hover{
+    
+    color:#000000;
+  }
+  @media(min-width:900px){
+    .description{background: #ffffffd3;
+    height:200px;
+    color:#000000;
+    padding:5px;}
+  }
